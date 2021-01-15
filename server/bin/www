@@ -1,0 +1,9 @@
+const http = require('http');
+const { server } = require('../app');
+
+server.listen().then(() => {
+  console.log(`
+    INSPECT Server is running!
+    Listening on port 4000
+  `);
+});

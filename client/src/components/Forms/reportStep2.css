@@ -1,0 +1,16 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  background-color: #B1B1B1;
+}
+
+.report-step-2 {
+  margin-top: 150px;
+  text-align: left;
+}
+
+.side-right {
+  margin-left: 100px;
+}

@@ -1,0 +1,117 @@
+.tax-credibility {
+  margin-top: 100px;
+  height: 50vh;
+}
+
+.result-heading {
+  margin-top: 100px;
+  width: 45%;
+  border: 1px solid #95a5a6;
+}
+
+.result-heading p {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.main-content-tax {
+  margin-top: 150px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content-tax::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  height: 65%;
+  background-color: #f5f6fa;
+  filter: blur(50px);
+}
+
+.main-content-tax .uk-card {
+  background-color: white;
+}
+
+.btn-submit {
+  position: relative;
+  border-radius: 0;
+  background-color: #2C3E50;
+  color:#4cd137;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  height: 50px;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  margin-top: 25px;
+}
+
+.btn-submit:hover {
+  background-color: #4cd137;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.btn-submit::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 45px;
+  left: 25%;
+  width: 100px;
+  height: 10px;
+  background-color: #2C3E50;
+  filter: blur(10px);
+  z-index: -1;
+  border: none;
+}
+
+.credibility-alert {
+  position: absolute;
+  padding: 50px;
+  width: 800px;
+  top: 6vh;
+  left: 27%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(100px);
+  color: #2C3E50;
+}
+
+.npwp-alert {
+  position: absolute;
+  top: 5vh;
+  right: 35vw;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(100px);
+  padding: 150px;
+}
+
+.npwp-alert p {
+  font-weight: 900;
+  padding-left: 23px;
+  font-size: 45px;
+}
+
+.sweet-loading {
+  align-self: center;
+}
+
+.loading {
+  align-self: center;
+  position: absolute;
+  top: 30vh;
+  right: 49vw;
+  z-index: 9999;
+}
+
+.uk-alert-success, .uk-alert-danger {
+  position: absolute;
+}
+

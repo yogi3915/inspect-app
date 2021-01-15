@@ -1,0 +1,108 @@
+.login-page {
+  margin-top: 188px;
+}
+
+.title {
+  margin-top: 133px;
+}
+
+.title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: left;
+}
+
+.title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.btn-google {
+  justify-content: left;
+}
+
+.btn-sign-in-google {
+  margin-top: 50px;
+  color: white; 
+  border-radius: 11px;
+  font-size: 18px;
+  background-color: #2C3E50;
+}
+
+.btn-back {
+  color: #2C3E50;
+  background-color: white;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.card-login {
+  background-color: #2C3E50;
+}
+
+.card-login::after {
+  content: '';
+  width: 70%;
+  height: 70%;
+  top: 150px;
+  left: 15%;
+  position: absolute;
+  background-color: #2C3E50;
+  z-index: -1;
+  filter: blur(50px);
+}
+
+.uk-legend {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.legend-2 {
+  height: 15px;
+  left: 815px;
+  top: 375px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+input[type=text] {
+  width: 312px;
+  height: 40px;
+  left: 815px;
+  top: 435px;
+  border-radius: 11px;
+}
+
+input[type=password] {
+  width: 312px;
+  height: 40px;
+  left: 815px;
+  top: 435px;
+  border-radius: 11px;
+}
+
+.login {
+  display: flex;
+  flex-wrap: nowrap;
+  color: #000000;
+}
+
+.btn-sign-in {
+  color: #2C3E50; 
+  margin-top: 50px; 
+  border-radius: 11px; 
+  background-color: white; 
+  font-weight: 1000;
+}
+
+img {
+  margin-left: -7px;
+}

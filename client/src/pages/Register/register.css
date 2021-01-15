@@ -1,0 +1,93 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-page {
+  margin-top: 188px;
+}
+
+.title {
+  margin-top: 133px;
+}
+
+.title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: left;
+}
+
+.title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.card-register {
+  background-color: #2C3E50;
+}
+
+.card-register::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: -10px;
+  position: absolute;
+  background-color: #000000;
+  z-index: -1;
+  filter: blur(15px);
+}
+
+.uk-legend {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.legend-2 {
+  height: 15px;
+  left: 815px;
+  top: 375px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+a {
+  left: 0;
+}
+
+.login {
+  display: flex;
+  flex-wrap: nowrap;
+  color: #000000;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-sign-up {
+  color: #2C3E50; 
+  margin-top: 50px; 
+  border-radius: 11px; 
+  background-color: white; 
+  font-weight: 1000;
+}
+
+button {
+  border-radius: 11px;
+}
+
+img {
+  margin-left: -7px;
+}
+
+.uk-select {
+  border-radius: 11px;
+}
